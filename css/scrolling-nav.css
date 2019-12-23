@@ -34,13 +34,14 @@ section {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 100%;
   filter: brightness(50%);
 }
 
 section.service {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+  padding: 10px;
 }
 
 .service .card {
@@ -67,30 +68,6 @@ section.service {
 }
 
 
-
-.service .btn {
-  font-size: 80%;
-  border-radius: 5rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-  padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s;
-}
-
-/* Hover Effects on Card */
-
-@media (min-width: 992px) {
-  .service .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  }
-  .service .card:hover .btn {
-    opacity: 1;
-  }
-}
-
 .arc_responsive {
   width: 100%;
   height: auto;
@@ -107,7 +84,7 @@ section.service {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media all and (min-width: 480px) and (max-width: 768px) { 
+@media all and (min-width: 480px) and (max-width: 1170px) { 
 
 /*@media (min-width: 40em) {*/
   /* Bump up size of carousel content */
@@ -117,6 +94,11 @@ section.service {
     line-height: 1.4;
   }
 
- 
+  .service .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  
 }
 
