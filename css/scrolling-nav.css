@@ -4,9 +4,16 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+ body {
+  color: #5a5a5a;
+}
 
 section {
-  padding: 150px 0;
+  padding: 120px 0px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
 }
 
 
@@ -14,9 +21,9 @@ section {
 -------------------------------------------------- */
 
 /* Carousel base class */
-/*.carousel {
+.carousel {
   margin-bottom: 4rem;
-} */
+} 
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -92,13 +99,5 @@ section.service {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-  }
-
-  .service .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  }
-  
+  } 
 }
-
