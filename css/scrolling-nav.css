@@ -80,7 +80,7 @@ section.service {
   height: auto;
 }
 
-#arc_box {
+.arc_box {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
